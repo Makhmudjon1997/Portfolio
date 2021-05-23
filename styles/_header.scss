@@ -1,0 +1,49 @@
+.header{
+    background-image: url('../Images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    //min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, .1);
+    z-index: 999;
+    top: 0;
+    position: sticky;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item{
+    padding: 0 20px;
+}
+
+.navbar-brand{
+    font-size: 32px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav-link{
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}

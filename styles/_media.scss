@@ -1,0 +1,102 @@
+@media (max-width: 1160px){
+    .container{
+        width: 1000px;
+    }
+
+}
+
+@media (max-width: 1020px){
+    .container{
+        width: 900px;
+    }
+}
+
+@media (max-width: 940px){
+    .container{
+        width: 800px;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .menu-btn{
+        display: inline-block;
+        position: absolute;
+        background-image: url(../Images/menu.png);
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        right: 0;
+        margin: 0 20px;
+        cursor: pointer;
+        transition: .4s ease;
+    }
+
+
+    .content{
+        flex-direction: column;
+        width: 100%;
+        .card{
+            width: 90% !important;
+        }
+    }
+
+    .column{
+        width: 80%;
+        text-align: center;
+    }
+
+    .contact-form{
+        width: 70% !important;
+    }
+
+    .col-left{ 
+        img{
+            max-width: 60%;
+        }
+    }
+
+    .content-title{
+        padding-top: 20px;
+    }
+
+    .animated-text, .navbar-brand{
+        font-size: 26px;
+    }
+
+    .link-to__work{
+        padding: 10px 20px !important;
+    }
+
+}
+
+@media(max-width: 850px){
+    .container{
+        width: 700px;
+    }
+
+    .header-info-title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 750px){
+    .container{
+        width: 90%;
+    }
+
+    .header-info-title{
+        font-size: 26px;
+    }
+
+    .animated-text, .navbar-brand{
+        font-size: 22px;
+    }
+
+    .contact-form{
+        width: 100% !important;
+    }
+}

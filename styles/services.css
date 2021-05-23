@@ -1,0 +1,54 @@
+.services {
+  padding: 50px 0;
+}
+
+.services .container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.services .container .title p {
+  padding-bottom: 30px;
+}
+
+.services .container .content .card {
+  background-color: #fff;
+  width: 300px;
+  margin: 10px;
+  padding: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 5px 25px;
+          box-shadow: 0 5px 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.services .container .content .service-icon {
+  color: crimson;
+  font-size: 120px;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.services .container .content .service-icon:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+/*# sourceMappingURL=services.css.map */
