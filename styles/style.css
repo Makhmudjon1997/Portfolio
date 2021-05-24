@@ -29,6 +29,45 @@ img {
   margin: 0 auto;
 }
 
+.scrollToTop-btn {
+  z-index: 999;
+  position: fixed;
+  background-color: crimson;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  right: 0;
+  bottom: 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.scrollToTop-btn.active {
+  right: 20px;
+  opacity: 1;
+}
+
+.reveal {
+  position: relative;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  opacity: 0;
+  -webkit-transition: all 1.3s ease;
+  transition: all 1.3s ease;
+}
+
+.reveal.active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
 .header {
   background-image: url("../Images/bg.png");
   background-repeat: no-repeat;
@@ -63,7 +102,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 .menu-btn {
@@ -87,7 +126,7 @@ img {
 }
 
 .navbar-brand {
-  font-size: 32px;
+  font-size: 26px;
   color: black;
   text-transform: uppercase;
   font-weight: 700;
