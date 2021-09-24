@@ -395,19 +395,34 @@ img {
   background-color: blue;
 }
 
+.bar .bootstrap::before {
+  width: 85%;
+  background-color: #ec47ec;
+}
+
 .bar .javscript::before {
   width: 80%;
   background-color: yellow;
 }
 
-.bar .jquery::before {
-  width: 80%;
+.bar .vue::before {
+  width: 60%;
   background-color: green;
 }
 
-.bar .php::before {
+.bar .react::before {
   width: 70%;
-  background-color: orangered;
+  background-color: #8181db;
+}
+
+.bar .typescript::before {
+  width: 60%;
+  background-color: yellow;
+}
+
+.bar .node::before {
+  width: 60%;
+  background-color: #036303;
 }
 
 .services {
@@ -667,7 +682,7 @@ img {
 }
 
 .contact .container .content .row .contact-form .input-box .send-btn:hover {
-  background-color: #fff;
+  background-color: #bebbbb;
   color: black;
 }
 

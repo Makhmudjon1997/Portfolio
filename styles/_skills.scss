@@ -49,18 +49,33 @@
         background-color: blue;
     }
 
+    .bootstrap::before{
+        width: 85%;
+        background-color: rgb(236, 71, 236);
+    }
+
     .javscript::before{
         width: 80%;
         background-color: yellow;
     }
 
-    .jquery::before{
-        width: 80%;
+    .vue::before{
+        width: 60%;
         background-color: green;
     }
 
-    .php::before{
+    .react::before{
         width: 70%;
-        background-color: orangered;
+        background-color: rgb(129, 129, 219);
+    }
+
+    .typescript::before{
+        width: 60%;
+        background-color: yellow;
+    }
+
+    .node::before{
+        width: 60%;
+        background-color: rgb(3, 99, 3);
     }
 }
